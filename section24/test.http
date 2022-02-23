@@ -1,0 +1,14 @@
+POST http://localhost:8080/feed/post HTTP/1.1
+Content-Type: application/json
+
+{
+   "title": "This is from test.http",
+   "content": "This is my first post from test.http" 
+}
+
+###
+
+GET http://localhost:8080/feed/posts HTTP/1.1
+Content-Type: application/json
+
+###
